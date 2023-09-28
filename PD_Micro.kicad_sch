@@ -2220,6 +2220,9 @@
   (junction (at 115.57 64.77) (diameter 0) (color 0 0 0 0)
     (uuid 0fc5db66-6188-4c1f-bb14-0868bef113eb)
   )
+  (junction (at 170.18 149.86) (diameter 0) (color 0 0 0 0)
+    (uuid 10ac8b23-bf62-46d6-bc24-7dc2f1993ea6)
+  )
   (junction (at 194.31 22.86) (diameter 0) (color 0 0 0 0)
     (uuid 1c68b844-c861-46b7-b734-0242168a4220)
   )
@@ -2830,7 +2833,7 @@
     (stroke (width 0) (type default))
     (uuid aa54c0ba-40d2-4b6f-a810-d6db3bc4945d)
   )
-  (wire (pts (xy 170.18 162.56) (xy 170.18 137.16))
+  (wire (pts (xy 170.18 162.56) (xy 170.18 149.86))
     (stroke (width 0) (type default))
     (uuid ac33ef55-e6f3-4524-8487-2eaf11e20862)
   )
@@ -2865,6 +2868,10 @@
   (wire (pts (xy 107.95 66.04) (xy 107.95 64.77))
     (stroke (width 0) (type default))
     (uuid bb59b92a-e4d0-4b9e-82cd-26304f5c15b8)
+  )
+  (wire (pts (xy 167.64 149.86) (xy 170.18 149.86))
+    (stroke (width 0) (type default))
+    (uuid bb7b1971-aede-4b91-b2fa-d1b40f0aba38)
   )
   (wire (pts (xy 87.63 27.94) (xy 87.63 22.86))
     (stroke (width 0) (type default))
@@ -2997,6 +3004,10 @@
   (wire (pts (xy 127 102.87) (xy 151.13 102.87))
     (stroke (width 0) (type default))
     (uuid e4fd89b1-8caa-4109-bcb0-a97f2d24dfad)
+  )
+  (wire (pts (xy 170.18 149.86) (xy 170.18 137.16))
+    (stroke (width 0) (type default))
+    (uuid e59c2d7c-dd0f-49d0-ac84-37c64807a285)
   )
   (wire (pts (xy 104.14 22.86) (xy 123.19 22.86))
     (stroke (width 0) (type default))
@@ -3373,7 +3384,7 @@
   (symbol (lib_id "-Passive:C") (at 97.79 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dc10454)
-    (property "Reference" "C16" (at 92.71 116.84 90)
+    (property "Reference" "C3" (at 92.71 116.84 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330pF" (at 95.25 120.65 90)
@@ -3390,7 +3401,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C16") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3399,7 +3410,7 @@
   (symbol (lib_id "-Passive:C") (at 97.79 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dc85a1f)
-    (property "Reference" "C17" (at 95.25 125.73 90)
+    (property "Reference" "C5" (at 95.25 125.73 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330pF" (at 92.71 130.81 90)
@@ -3416,7 +3427,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C17") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3575,7 +3586,7 @@
   (symbol (lib_id "-Passive:C") (at 107.95 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005de2a07a)
-    (property "Reference" "C6" (at 108.585 66.675 0)
+    (property "Reference" "C2" (at 108.585 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF 50V" (at 108.585 70.485 0)
@@ -3592,7 +3603,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C6") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3601,7 +3612,7 @@
   (symbol (lib_id "-Passive:C") (at 123.19 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005de2a081)
-    (property "Reference" "C8" (at 123.825 66.675 0)
+    (property "Reference" "C4" (at 123.825 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF 50V" (at 123.825 70.485 0)
@@ -3618,7 +3629,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C8") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3702,7 +3713,7 @@
   (symbol (lib_id "-Passive:C") (at 57.15 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005de4c8dc)
-    (property "Reference" "C15" (at 59.055 111.125 0)
+    (property "Reference" "C12" (at 59.055 111.125 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 58.42 114.935 0)
@@ -3719,7 +3730,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C15") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -3728,7 +3739,7 @@
   (symbol (lib_id "-Passive:C") (at 115.57 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005df6a53f)
-    (property "Reference" "C7" (at 116.205 66.675 0)
+    (property "Reference" "C6" (at 116.205 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF 50V" (at 116.205 70.485 0)
@@ -3745,7 +3756,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3886,7 +3897,7 @@
   (symbol (lib_id "-Passive:R") (at 104.14 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e2db9cf)
-    (property "Reference" "R1" (at 105.41 26.035 0)
+    (property "Reference" "R6" (at 105.41 26.035 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 105.41 29.21 0)
@@ -3903,7 +3914,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R1") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -3912,7 +3923,7 @@
   (symbol (lib_id "-Passive:R") (at 104.14 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e2e4d09)
-    (property "Reference" "R3" (at 105.41 33.655 0)
+    (property "Reference" "R8" (at 105.41 33.655 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 105.41 36.83 0)
@@ -3929,7 +3940,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4013,7 +4024,7 @@
   (symbol (lib_id "-Passive:C") (at 87.63 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e390a54)
-    (property "Reference" "C4" (at 88.265 28.575 0)
+    (property "Reference" "C7" (at 88.265 28.575 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF 50V" (at 88.265 32.385 0)
@@ -4030,7 +4041,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C4") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4039,7 +4050,7 @@
   (symbol (lib_id "-Connector:MountingHole") (at 29.21 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e5197fa)
-    (property "Reference" "H1" (at 31.75 153.7716 0)
+    (property "Reference" "H2" (at 31.75 153.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 31.75 156.083 0)
@@ -4054,7 +4065,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H1") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -4063,7 +4074,7 @@
   (symbol (lib_id "-Connector:MountingHole") (at 29.21 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e51c80c)
-    (property "Reference" "H3" (at 31.75 160.1216 0)
+    (property "Reference" "H1" (at 31.75 160.1216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 31.75 162.433 0)
@@ -4078,7 +4089,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H3") (unit 1)
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -4087,7 +4098,7 @@
   (symbol (lib_id "-Connector:MountingHole") (at 49.53 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e5240f3)
-    (property "Reference" "H2" (at 52.07 153.7716 0)
+    (property "Reference" "H4" (at 52.07 153.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 49.53 156.083 0)
@@ -4102,7 +4113,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H2") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -4111,7 +4122,7 @@
   (symbol (lib_id "-Connector:MountingHole") (at 49.53 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e5240f9)
-    (property "Reference" "H4" (at 52.07 160.1216 0)
+    (property "Reference" "H3" (at 52.07 160.1216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 52.07 162.433 0)
@@ -4126,7 +4137,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H4") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -4135,7 +4146,7 @@
   (symbol (lib_id "-Passive:R") (at 78.74 77.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e6278b9)
-    (property "Reference" "R7" (at 74.93 76.2 90)
+    (property "Reference" "R3" (at 74.93 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22R" (at 82.55 76.2 90)
@@ -4152,7 +4163,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R7") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -4161,7 +4172,7 @@
   (symbol (lib_id "-Passive:R") (at 78.74 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e6324d4)
-    (property "Reference" "R8" (at 74.93 78.74 90)
+    (property "Reference" "R2" (at 74.93 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22R" (at 82.55 78.74 90)
@@ -4178,7 +4189,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R8") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -4299,7 +4310,7 @@
   (symbol (lib_id "-Passive:R") (at 72.39 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e65259e)
-    (property "Reference" "R9" (at 73.66 95.885 0)
+    (property "Reference" "R1" (at 73.66 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 73.66 99.06 0)
@@ -4316,7 +4327,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R9") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -4325,7 +4336,7 @@
   (symbol (lib_id "-Passive:C") (at 78.74 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e6525b9)
-    (property "Reference" "C13" (at 80.01 107.315 0)
+    (property "Reference" "C10" (at 80.01 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 80.01 111.125 0)
@@ -4342,7 +4353,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C13") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4376,7 +4387,7 @@
   (symbol (lib_id "-Passive:C") (at 66.04 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e6525db)
-    (property "Reference" "C12" (at 66.675 95.885 0)
+    (property "Reference" "C1" (at 66.675 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 66.675 99.695 0)
@@ -4393,7 +4404,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C12") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -4402,7 +4413,7 @@
   (symbol (lib_id "-Passive:R") (at 43.18 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e67d991)
-    (property "Reference" "R11" (at 44.45 117.475 0)
+    (property "Reference" "R9" (at 44.45 117.475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 44.45 120.65 0)
@@ -4419,7 +4430,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R11") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -4428,7 +4439,7 @@
   (symbol (lib_id "-Passive:R") (at 49.53 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e6849a6)
-    (property "Reference" "R12" (at 50.8 117.475 0)
+    (property "Reference" "R4" (at 50.8 117.475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 50.8 120.65 0)
@@ -4445,7 +4456,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R12") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4554,7 +4565,7 @@
   (symbol (lib_id "-Chip:TPS62175DQC") (at 154.94 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e7a5068)
-    (property "Reference" "U1" (at 154.94 16.0782 0)
+    (property "Reference" "U3" (at 154.94 16.0782 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS62175DQC" (at 154.94 18.3896 0)
@@ -4580,7 +4591,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "U1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4615,7 +4626,7 @@
   (symbol (lib_id "-Passive:R") (at 186.69 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e7bb7cd)
-    (property "Reference" "R2" (at 187.96 26.035 0)
+    (property "Reference" "R7" (at 187.96 26.035 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "270k" (at 187.96 29.21 0)
@@ -4632,7 +4643,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R2") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4641,7 +4652,7 @@
   (symbol (lib_id "-Passive:R") (at 186.69 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e7c06c0)
-    (property "Reference" "R4" (at 187.96 33.655 0)
+    (property "Reference" "R5" (at 187.96 33.655 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "51k" (at 187.96 36.83 0)
@@ -4658,7 +4669,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4767,7 +4778,7 @@
   (symbol (lib_id "-Passive:C") (at 194.31 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e821230)
-    (property "Reference" "C1" (at 194.945 24.765 0)
+    (property "Reference" "C11" (at 194.945 24.765 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 194.945 28.575 0)
@@ -4784,7 +4795,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C1") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -4818,7 +4829,7 @@
   (symbol (lib_id "-Passive:C") (at 200.66 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e82752b)
-    (property "Reference" "C2" (at 201.295 24.765 0)
+    (property "Reference" "C9" (at 201.295 24.765 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 201.295 28.575 0)
@@ -4835,7 +4846,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C2") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -4919,7 +4930,7 @@
   (symbol (lib_id "-Chip:SRV05-4") (at 110.49 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ee4b96b)
-    (property "Reference" "U2" (at 104.14 88.9 0)
+    (property "Reference" "U1" (at 104.14 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SRV05-4" (at 118.11 88.9 0)
@@ -4940,7 +4951,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -5024,7 +5035,7 @@
   (symbol (lib_id "Switch:SW_DPST_x2") (at 116.84 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22fa440e-532d-4951-9e91-5a3d018eaa1d)
-    (property "Reference" "SW1" (at 114.3 147.32 0)
+    (property "Reference" "SW2" (at 114.3 147.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPST_x2" (at 116.84 149.86 0)
@@ -5043,7 +5054,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "SW1") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -5102,7 +5113,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 118.11 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bd8cd2e-6f67-4fc8-a8b0-667f4d507a38)
-    (property "Reference" "SW2" (at 118.11 142.24 0)
+    (property "Reference" "SW4" (at 118.11 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 118.11 144.78 0)
@@ -5119,7 +5130,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "SW2") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -5206,7 +5217,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 116.84 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72a3da18-dba3-43a6-ad08-408f8e1ca370)
-    (property "Reference" "SW6" (at 116.84 132.08 0)
+    (property "Reference" "SW3" (at 116.84 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 116.84 134.62 0)
@@ -5223,7 +5234,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "SW6") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -5257,7 +5268,7 @@
   (symbol (lib_id "MCU_RaspberryPi_and_Boards:Pico") (at 149.86 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76085698-0bde-46d7-9fe1-7da8050bc14d)
-    (property "Reference" "U3" (at 137.16 125.73 0)
+    (property "Reference" "U2" (at 137.16 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Pico" (at 137.16 128.27 0)
@@ -5314,7 +5325,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -5349,7 +5360,7 @@
   (symbol (lib_id "Switch:SW_DPST_x2") (at 110.49 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 890ebb4f-4cb5-483e-ab6b-fa5dd05d7b34)
-    (property "Reference" "SW4" (at 107.95 171.45 0)
+    (property "Reference" "SW5" (at 107.95 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPST_x2" (at 110.49 173.99 0)
@@ -5368,7 +5379,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "SW4") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -5520,7 +5531,7 @@
   (symbol (lib_id "Switch:SW_DIP_x06") (at 215.9 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3de0e9a-dd0c-4068-8a4c-cba23c4ed922)
-    (property "Reference" "SW5" (at 215.9 88.9 0)
+    (property "Reference" "SW1" (at 215.9 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DIP_x06" (at 215.9 91.44 0)
@@ -5547,7 +5558,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "SW5") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -5556,7 +5567,7 @@
   (symbol (lib_id "-Passive:C") (at 207.01 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d74c7309-cf2e-42ad-ba38-48af97c7f41d)
-    (property "Reference" "C3" (at 207.645 24.765 0)
+    (property "Reference" "C8" (at 207.645 24.765 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 207.645 28.575 0)
@@ -5573,7 +5584,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C3") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -5682,7 +5693,7 @@
   (symbol (lib_id "-Connector:Conn_01x02") (at 30.48 22.86 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff797f7a-4157-4aa2-b5e9-5b2de39088c0)
-    (property "Reference" "J3" (at 28.448 23.0632 0)
+    (property "Reference" "J1" (at 28.448 23.0632 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (at 28.448 25.3746 0)
@@ -5699,7 +5710,7 @@
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J3") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
