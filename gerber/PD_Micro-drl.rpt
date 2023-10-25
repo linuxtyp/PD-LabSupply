@@ -1,5 +1,5 @@
 Drill report for PD_Micro.kicad_pcb
-Created on Fri 13 Oct 2023 08:32:00 AM CEST
+Created on Thu 19 Oct 2023 12:27:04 PM CEST
 
 Copper Layer Stackup:
     =============================================================
@@ -11,14 +11,15 @@ Drill file 'PD_Micro-PTH.drl' contains
     plated through holes:
     =============================================================
     T1  0,200mm  0,0079"  (9 holes)
-    T2  0,250mm  0,0098"  (86 holes)
-    T3  0,500mm  0,0197"  (10 holes)
-    T4  0,600mm  0,0236"  (4 holes)  (with 4 slots)
-    T5  0,800mm  0,0315"  (16 holes)
-    T6  1,020mm  0,0402"  (40 holes)
-    T7  1,200mm  0,0472"  (2 holes)
+    T2  0,250mm  0,0098"  (83 holes)
+    T3  0,400mm  0,0157"  (1 hole)
+    T4  0,500mm  0,0197"  (10 holes)
+    T5  0,600mm  0,0236"  (4 holes)  (with 4 slots)
+    T6  0,800mm  0,0315"  (16 holes)
+    T7  1,020mm  0,0402"  (40 holes)
+    T8  1,520mm  0,0598"  (2 holes)
 
-    Total plated holes count 167
+    Total plated holes count 165
 
 
 Drill file 'PD_Micro-NPTH.drl' contains
