@@ -4556,12 +4556,12 @@
     (property "Datasheet" "" (at 96.52 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 8fd0b33a-45bf-4216-9d7e-a62e1c071730))
-    (pin "2" (uuid fc13962a-a464-4fa2-b9a6-4c26667104ee))
-    (pin "3" (uuid f240e733-157e-4a15-812f-78f42d8a8322))
-    (pin "4" (uuid a4911204-1308-4d17-90a9-1ff5f9c57c9b))
-    (pin "5" (uuid 01c59306-91a3-452b-92b5-9af8f8f257d6))
-    (pin "6" (uuid ef3a2f4c-5879-4e98-ad30-6b8614410fba))
+    (pin "1" (uuid d18d85bb-aa05-4e0d-b7d8-5cb565c83c6d))
+    (pin "2" (uuid b7c9b1d7-d22e-4801-97dc-77348c2a86e6))
+    (pin "3" (uuid 8bc000d9-5888-4e86-929f-7487e1feb4ad))
+    (pin "4" (uuid cb3823eb-d236-40f3-87d0-711f94abdb9f))
+    (pin "5" (uuid 1b19b5b3-b013-4b93-bef1-9bf9103df0d4))
+    (pin "6" (uuid db97062e-c089-4abb-93ee-19f4825ebe3b))
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -4740,8 +4740,8 @@
     (property "Datasheet" "~" (at 87.63 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6a25c4e1-7129-430c-892b-6eecb6ffdb47))
-    (pin "2" (uuid d8f24303-7e52-49a9-9e82-8d60c3aaa009))
+    (pin "1" (uuid caccac81-41ff-4b51-8480-022943230f73))
+    (pin "2" (uuid 1524d9a5-e603-4905-8f03-829fb39524fd))
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -6585,7 +6585,7 @@
   )
 
   (symbol (lib_id "Sensor_Current:ACS723xLCTR-10AB") (at 71.12 39.37 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b2d7c47-23a0-461c-ae49-b75fe2f37649)
     (property "Reference" "U5" (at 90.17 32.4419 90)
       (effects (font (size 1.27 1.27)))
@@ -6599,14 +6599,14 @@
     (property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS723-Datasheet.ashx?la=en" (at 71.12 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6fafa343-6288-4efa-968f-b8e5b0e69ec1))
-    (pin "2" (uuid 53858459-efef-4269-aa64-dae94e7bb753))
-    (pin "3" (uuid 1f92a4e0-b2ee-406a-a2c3-b30f7918ec5d))
-    (pin "4" (uuid c0860cac-f55c-47f2-8ac7-3ea80eb6bf01))
-    (pin "5" (uuid 9895664f-2322-4e5b-a982-f43cc0da0576))
-    (pin "6" (uuid ba35be30-61d8-4b93-a25b-fee1d1423b75))
-    (pin "7" (uuid 02659620-5d68-4176-96ca-a5cba1745e81))
-    (pin "8" (uuid 81b6ca41-63ea-4e9e-a668-24138bfb7d45))
+    (pin "1" (uuid ad848351-e05a-4f7d-8b64-9966528aea09))
+    (pin "2" (uuid 60d76ae8-365d-41bb-942b-e288d119def5))
+    (pin "3" (uuid 5af801c3-000e-4e6e-ab15-2f7c59de04e5))
+    (pin "4" (uuid 8b72fea2-3594-46d9-a949-d8ade1f30828))
+    (pin "5" (uuid 93f2a5a8-0695-4816-b725-75f156f1a2a0))
+    (pin "6" (uuid 6785c09b-1f57-4517-8e4e-f437c116b403))
+    (pin "7" (uuid acf05567-d800-4be6-a5bf-2ecf8766c247))
+    (pin "8" (uuid b4ed1db0-3e5a-4488-842f-0d0a5f27357a))
     (instances
       (project "PD_Micro"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
