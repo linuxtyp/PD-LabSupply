@@ -263,8 +263,8 @@
   (pad "39" smd circle (at 8.89 -21.59) (size 2.3 2.3) (layers "F.Cu" "F.Mask") (tstamp c66a19ed-90c0-4502-ae75-6a4c4ab9f297))
   (pad "40" thru_hole oval (at 8.89 -24.13) (size 1.7 1.7) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 0ba17a9b-d889-426c-b4fe-048bed6b6be8))
   (pad "40" smd circle (at 8.89 -24.13) (size 2.3 2.3) (layers "F.Cu" "F.Mask") (tstamp bd085057-7c0e-463a-982b-968a2dc1f0f8))
-  (pad "41" smd circle (at -1.016 -24.08) (size 1.95 1.95) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp be1a4701-bd16-4097-87e0-00ef430b0b04))
-  (pad "42" smd circle (at 1.016 -24.08) (size 1.95 1.95) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d44de458-e9ef-4fcd-ac9e-f7063ea46ad6))
+  (pad "41" smd oval (at -1.016 -24.08) (size 1.93 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp be1a4701-bd16-4097-87e0-00ef430b0b04))
+  (pad "42" smd oval (at 1.016 -24.08) (size 1.93 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d44de458-e9ef-4fcd-ac9e-f7063ea46ad6))
   (model "${KIPRJMOD}/library/KiCad-RP-Pico-main/RP-Pico Libraries/Pico.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
