@@ -593,6 +593,18 @@
       {
         "netclass": "cc",
         "pattern": "CC2"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "OUT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDD"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/HALL_IN"
       }
     ]
   },
