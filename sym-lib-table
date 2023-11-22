@@ -7,4 +7,7 @@
   (lib (name "-Passive")(type "Legacy")(uri "${KIPRJMOD}/library/symbol/Passive.lib")(options "")(descr ""))
   (lib (name "-Switch")(type "Legacy")(uri "${KIPRJMOD}/library/symbol/Switch.lib")(options "")(descr ""))
   (lib (name "AP33772")(type "KiCad")(uri "${KIPRJMOD}/library/AP33772.kicad_sym")(options "")(descr ""))
+  (lib (name "LMR54410")(type "KiCad")(uri "${KIPRJMOD}/library/LMR54410/LMR54410.kicad_sym")(options "")(descr ""))
+  (lib (name "IRF9393")(type "KiCad")(uri "${KIPRJMOD}/library/IRF9393/IRF9393.kicad_sym")(options "")(descr ""))
+  (lib (name "TMCS1108")(type "KiCad")(uri "${KIPRJMOD}/library/TMCS1108/TMCS1108.kicad_sym")(options "")(descr ""))
 )
