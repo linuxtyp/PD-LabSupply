@@ -1,0 +1,63 @@
+Plugin v0.0.1 running on KiCad 7.0.9 and Python 3.9.16 (main, Oct 13 2023, 05:50:11) [MSC v.1936 64 bit (AMD64)] on win32.
+Config file C:\Users\johan\OneDrive - HTL-Rankweil\202324-4AHEL\HWE-Übungen\ZKS\USBC_PD-Trigger\Hardware\PD_Micro.kicad_pcb.hierpcb.json not found. Creating new one.
+Imported C:\Users\johan\OneDrive - HTL-Rankweil\202324-4AHEL\HWE-Übungen\ZKS\USBC_PD-Trigger\Hardware\PD_Micro.kicad_pcb, with 56 footprints, 399 tracks, and 40 drawings.
+ (+ PCB C:\Users\johan\OneDrive - HTL-Rankweil\202324-4AHEL\HWE-Übungen\ZKS\USBC_PD-Trigger\Hardware\PD_Micro.kicad_pcb)
+PCB C:\Users\johan\OneDrive - HTL-Rankweil\202324-4AHEL\HWE-Übungen\ZKS\USBC_PD-Trigger\Hardware\PD_Micro.kicad_pcb
+  /dec81968: C15
+  /3f950547: J8
+  /cb3e28a9: D2
+  /82525001: D1
+  /00000000: C4
+  /9ba5259e: J6
+  /00000000: U1
+  /a04e0aff: J5
+  /8d40bb8e: R2
+  /d3de0e9a: SW1
+  /d188e8f3: R7
+  /00000000: H4
+  /42b2ec2e: C11
+  /00000000: C6
+  /a3a6b64e: Q1
+  /9696ec60: C12
+  /ebfd78a6: J2
+  /22d5fd08: R16
+  /4a2dc9f4: L1
+  /5199a8ec: C10
+  /d3732ca9: Q4
+  /668f61b1: C3
+  /00000000: H2
+  /63a5d199: C13
+  /cad5c12a: U7
+  /839d2f37: U4
+  /00000000: R9
+  /00000000: C2
+  /00000000: C1
+  /00000000: C7
+  /00000000: R4
+  /b83e0795: R12
+  /890ebb4f: SW5
+  /00000000: R6
+  /45bdd030: R5
+  /6b502d8c: J7
+  /b2636590: C9
+  /00000000: R1
+  /76297d42: C5
+  /cc7d2350: SW3
+  /47afc90a: U3
+  /9259a1cd: R11
+  /d78e2cd3: TH1
+  /00000000: H1
+  /00000000: H3
+  /00000000: R8
+  /76085698: U2
+  /de75d0e4: SW2
+  /35d9d82d: C14
+  /21e4faa5: R10
+  /ec11a8e2: SW4
+  /663e4472: U6
+  /dc24506b: J4
+  /ff797f7a: J1
+  /7dc37708: R3
+  /77272192: J3
+Selected for 0 : C:\Users\johan\OneDrive - HTL-Rankweil\202324-4AHEL\HWE-Übungen\ZKS\USBC_PD-Trigger\Hardware\PD_Micro.kicad_pcb
+Anchors  (U2): ['C1', 'C10', 'C11', 'C12', 'C13', 'C14', 'C15', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C9', 'D1', 'D2', 'H1', 'H2', 'H3', 'H4', 'J1', 'J2', 'J3', 'J4', 'J5', 'J6', 'J7', 'J8', 'L1', 'Q1', 'Q4', 'R1', 'R10', 'R11', 'R12', 'R16', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8', 'R9', 'SW1', 'SW2', 'SW3', 'SW4', 'SW5', 'TH1', 'U1', 'U2', 'U3', 'U4', 'U6', 'U7']
