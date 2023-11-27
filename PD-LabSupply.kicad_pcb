@@ -4311,7 +4311,7 @@
   (gr_text "9V" (at 121.462 74.472 90) (layer "F.SilkS") (tstamp 5c28c29d-6d53-4f94-9430-6f88ce46c0d5)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "USBC_PD_Trigger" (at 96.5954 36.88) (layer "F.SilkS" knockout) (tstamp 636ea089-5c29-4211-bce4-2b79c688e873)
+  (gr_text "PD-LabSupply" (at 99.2 36.88) (layer "F.SilkS" knockout) (tstamp 636ea089-5c29-4211-bce4-2b79c688e873)
     (effects (font (size 2 2) (thickness 0.3)) (justify left bottom))
   )
   (gr_text "POGOPINS" (at 86.8164 51.485 90) (layer "F.SilkS" knockout) (tstamp 65638545-b6cd-4044-8a8e-2fed66424d2d)
