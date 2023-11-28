@@ -3656,7 +3656,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 134bfa30-a1b0-422f-9113-ea8b8522c274)
   )
-  (text "Output Mosfet\n" (at 191.77 153.67 0)
+  (text "Output Mosfet\n" (at 191.77 158.75 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 1b39df36-0122-46a9-a839-9e93d913c361)
   )
@@ -3664,7 +3664,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 2b886898-4d33-4585-9b83-9c213b31155d)
   )
-  (text "LED\n" (at 262.89 119.38 0)
+  (text "RGB LED\n" (at 257.81 119.38 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 3fbe4ab7-8054-45b1-9db5-41d6ab0fe63e)
   )
@@ -3676,7 +3676,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom))
     (uuid 61e290e2-cfea-468a-a92e-79927fa434ef)
   )
-  (text "Buttons\n" (at 45.72 189.23 0)
+  (text "Buttons\n" (at 46.99 194.31 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom))
     (uuid 6ae5f03c-9835-46f0-b9c0-0c4ea5384595)
   )
@@ -3696,11 +3696,11 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom))
     (uuid 96236de5-1364-4ad3-a74a-62e6c61843c5)
   )
-  (text "PoverDelivery IC\n" (at 100.33 160.02 0)
+  (text "PowerDelivery IC\n" (at 100.33 160.02 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid a797f498-f75e-4213-809e-87a7e359e311)
   )
-  (text "Raspberry Pi Pico\n" (at 196.85 90.17 0)
+  (text "Raspberry Pi Pico\n" (at 196.85 92.71 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom))
     (uuid a8b93129-9b58-48f7-89fa-bf0a9681a7ec)
   )
@@ -3712,7 +3712,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right bottom))
     (uuid c2543200-b18e-4e20-bc26-767f7c8f7539)
   )
-  (text "Mountingholes\n" (at 125.73 187.96 0)
+  (text "Mountingholes\n" (at 127 194.31 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid c3991660-562c-4a8d-8aad-12dd3e474932)
   )
@@ -4168,7 +4168,7 @@
     )
     (pin "1" (uuid 41b4f8c6-4973-4fc7-9118-d582bc7f31e7))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR041") (unit 1)
         )
@@ -4193,7 +4193,7 @@
     )
     (pin "1" (uuid b55dabdc-b790-4740-9349-75159cff975a))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR035") (unit 1)
         )
@@ -4218,7 +4218,7 @@
     )
     (pin "1" (uuid d7845958-0328-4932-8710-0c355505b057))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR036") (unit 1)
         )
@@ -4244,7 +4244,7 @@
     (pin "1" (uuid d5c86a84-6c8b-48b5-b583-2fe7052421ab))
     (pin "2" (uuid 0a79db37-f1d9-40b1-a24d-8bdfb8f637e2))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C2") (unit 1)
         )
@@ -4270,7 +4270,7 @@
     (pin "1" (uuid ab34b936-8ca5-4be1-8599-504cb86609fc))
     (pin "2" (uuid a09cb1c4-cc63-49c7-a35f-4b80c3ba2217))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C4") (unit 1)
         )
@@ -4295,7 +4295,7 @@
     )
     (pin "1" (uuid 36696ac6-2db1-4b52-ae3d-9f3c89d2042f))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR023") (unit 1)
         )
@@ -4320,7 +4320,7 @@
     )
     (pin "1" (uuid c10ace36-a93c-4c08-ac75-059ef9e1f71c))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR025") (unit 1)
         )
@@ -4346,7 +4346,7 @@
     (pin "1" (uuid be118b00-015b-445a-8fc5-7bf35350fda8))
     (pin "2" (uuid e8312cc4-6502-4783-b578-55c01e0393af))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C6") (unit 1)
         )
@@ -4371,7 +4371,7 @@
     )
     (pin "1" (uuid 87a0ffb1-5477-4b20-a3ac-fef5af129a33))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR024") (unit 1)
         )
@@ -4396,7 +4396,7 @@
     )
     (pin "1" (uuid bc1d5740-b0c7-4566-95b0-470ac47a1fb3))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR031") (unit 1)
         )
@@ -4422,7 +4422,7 @@
     (pin "1" (uuid 8afe1dbf-1187-4362-8af8-a90ca839a6b3))
     (pin "2" (uuid c8b93f12-bc5c-4ce5-b954-377d903895f1))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R6") (unit 1)
         )
@@ -4448,7 +4448,7 @@
     (pin "1" (uuid 177d1fce-2e10-42fa-a4c9-1aaa3046b864))
     (pin "2" (uuid 91817a1a-77f2-48fb-be04-f24934b03f85))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R8") (unit 1)
         )
@@ -4473,7 +4473,7 @@
     )
     (pin "1" (uuid 4c767509-b734-41f4-94b5-0572c538d1e1))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR013") (unit 1)
         )
@@ -4498,7 +4498,7 @@
     )
     (pin "1" (uuid 2cd3975a-2259-4fa9-8133-e1586b9b9618))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR020") (unit 1)
         )
@@ -4523,7 +4523,7 @@
     )
     (pin "1" (uuid 1a7e7b16-fc7c-4e64-9ace-48cc78112437))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR09") (unit 1)
         )
@@ -4549,7 +4549,7 @@
     (pin "1" (uuid caccac81-41ff-4b51-8480-022943230f73))
     (pin "2" (uuid 1524d9a5-e603-4905-8f03-829fb39524fd))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C7") (unit 1)
         )
@@ -4557,23 +4557,23 @@
     )
   )
 
-  (symbol (lib_id "-Connector:MountingHole") (at 148.59 168.91 0) (unit 1)
+  (symbol (lib_id "-Connector:MountingHole") (at 148.59 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e5197fa)
-    (property "Reference" "H2" (at 151.13 167.7416 0)
+    (property "Reference" "H2" (at 151.13 169.0116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (at 151.13 170.053 0)
+    (property "Value" "MountingHole" (at 151.13 171.323 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "-Hole:D1_8_PAD" (at 148.59 168.91 0)
+    (property "Footprint" "-Hole:D1_8_PAD" (at 148.59 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 148.59 168.91 0)
+    (property "Datasheet" "~" (at 148.59 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H2") (unit 1)
         )
@@ -4581,23 +4581,23 @@
     )
   )
 
-  (symbol (lib_id "-Connector:MountingHole") (at 125.73 168.91 0) (unit 1)
+  (symbol (lib_id "-Connector:MountingHole") (at 125.73 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e51c80c)
-    (property "Reference" "H1" (at 128.27 167.7416 0)
+    (property "Reference" "H1" (at 128.27 169.0116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (at 128.27 170.053 0)
+    (property "Value" "MountingHole" (at 128.27 171.323 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "-Hole:D1_8_PAD" (at 125.73 168.91 0)
+    (property "Footprint" "-Hole:D1_8_PAD" (at 125.73 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 125.73 168.91 0)
+    (property "Datasheet" "~" (at 125.73 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H1") (unit 1)
         )
@@ -4605,23 +4605,23 @@
     )
   )
 
-  (symbol (lib_id "-Connector:MountingHole") (at 148.59 176.53 0) (unit 1)
+  (symbol (lib_id "-Connector:MountingHole") (at 148.59 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e5240f3)
-    (property "Reference" "H4" (at 151.13 175.3616 0)
+    (property "Reference" "H4" (at 151.13 180.4416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (at 148.59 177.673 0)
+    (property "Value" "MountingHole" (at 148.59 182.753 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "-Hole:D1_8_PAD" (at 148.59 176.53 0)
+    (property "Footprint" "-Hole:D1_8_PAD" (at 148.59 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 148.59 176.53 0)
+    (property "Datasheet" "~" (at 148.59 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H4") (unit 1)
         )
@@ -4629,23 +4629,23 @@
     )
   )
 
-  (symbol (lib_id "-Connector:MountingHole") (at 125.73 176.53 0) (unit 1)
+  (symbol (lib_id "-Connector:MountingHole") (at 125.73 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e5240f9)
-    (property "Reference" "H3" (at 128.27 175.3616 0)
+    (property "Reference" "H3" (at 128.27 180.4416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (at 128.27 177.673 0)
+    (property "Value" "MountingHole" (at 128.27 182.753 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "-Hole:D1_8_PAD" (at 125.73 176.53 0)
+    (property "Footprint" "-Hole:D1_8_PAD" (at 125.73 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 125.73 176.53 0)
+    (property "Datasheet" "~" (at 125.73 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "H3") (unit 1)
         )
@@ -4670,7 +4670,7 @@
     )
     (pin "1" (uuid a323243c-4cab-4689-aa04-1e663cf86177))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR017") (unit 1)
         )
@@ -4696,7 +4696,7 @@
     (pin "1" (uuid 4688ff87-8262-46f4-ad96-b5f4e529cfa9))
     (pin "2" (uuid 92bd1111-b941-4c03-b7ec-a08a9359bc50))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R1") (unit 1)
         )
@@ -4722,7 +4722,7 @@
     (pin "1" (uuid b66731e7-61d5-4447-bf6a-e91a62b82298))
     (pin "2" (uuid c56bbebe-0c9a-418d-911e-b8ba7c53125d))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C1") (unit 1)
         )
@@ -4748,7 +4748,7 @@
     (pin "1" (uuid ea28e946-b74f-4ba8-ac7b-b1884c5e7296))
     (pin "2" (uuid d6040293-95f0-436a-938c-ad69875a4be8))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R9") (unit 1)
         )
@@ -4774,7 +4774,7 @@
     (pin "1" (uuid d2db53d0-2821-4ebe-bf21-b864eac8ca44))
     (pin "2" (uuid 3f1ab70d-3263-42b5-9c61-0360188ff2b7))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R4") (unit 1)
         )
@@ -4804,7 +4804,7 @@
     (pin "5" (uuid 1b5a32e4-0b8e-4f38-b679-71dc277c2087))
     (pin "6" (uuid 84febc35-87fd-4cad-8e04-2b66390cfc12))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U1") (unit 1)
         )
@@ -4829,7 +4829,7 @@
     )
     (pin "1" (uuid dcd272e8-d9e3-45ee-8451-8879210c6493))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR018") (unit 1)
         )
@@ -4854,7 +4854,7 @@
     )
     (pin "1" (uuid ac5f69ee-71cc-4bf9-b7f7-b1ab758bbe41))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR05") (unit 1)
         )
@@ -4879,7 +4879,7 @@
     )
     (pin "1" (uuid d8c346cc-730d-4aea-98b4-585a89d1caa1))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0114") (unit 1)
         )
@@ -4904,7 +4904,7 @@
     )
     (pin "1" (uuid 38ce90ab-8b08-4f27-8082-517ff2eb4c7e))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0115") (unit 1)
         )
@@ -4929,7 +4929,7 @@
     )
     (pin "1" (uuid c0df1fc9-ed3d-458d-a4b3-ae4afe982ad7))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR06") (unit 1)
         )
@@ -4954,7 +4954,7 @@
     )
     (pin "1" (uuid 110b2917-b436-42e3-8d82-a67b4e63e767))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR038") (unit 1)
         )
@@ -4979,7 +4979,7 @@
     )
     (pin "1" (uuid 3121a1c9-b358-4d1a-8531-faa462a1922f))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR012") (unit 1)
         )
@@ -5004,7 +5004,7 @@
     )
     (pin "1" (uuid 174177bf-6c2f-45ad-90a2-9a2b4a63fd0f))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR019") (unit 1)
         )
@@ -5030,7 +5030,7 @@
     (pin "1" (uuid 514f4505-d1e1-4ce8-bec4-881911531def))
     (pin "2" (uuid 2bc4c106-73b7-4791-a80d-a5bc0d123069))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R10") (unit 1)
         )
@@ -5056,7 +5056,7 @@
     (pin "1" (uuid 3d4aa7b0-f84d-4e27-8fdd-657bab178998))
     (pin "2" (uuid a362f28d-8473-4285-806b-72594f710afc))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R16") (unit 1)
         )
@@ -5081,7 +5081,7 @@
     )
     (pin "1" (uuid f8abd393-c8d3-4306-9414-9d86861ff941))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR03") (unit 1)
         )
@@ -5106,7 +5106,7 @@
     )
     (pin "1" (uuid 254f245c-dffd-4f50-b7b5-08f4a666d8cd))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR029") (unit 1)
         )
@@ -5131,7 +5131,7 @@
     )
     (pin "1" (uuid 46e441c0-9621-495b-9ac2-ad9c0695c95c))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR02") (unit 1)
         )
@@ -5156,7 +5156,7 @@
     )
     (pin "1" (uuid 3178acbc-9b59-4494-b38d-3b76d4a90209))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0102") (unit 1)
         )
@@ -5181,7 +5181,7 @@
     )
     (pin "1" (uuid 0f46fd81-5460-4066-8ddd-ef1431bced27))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR027") (unit 1)
         )
@@ -5207,7 +5207,7 @@
     (pin "1" (uuid be4c25e9-7931-4515-abf3-a5b543d09e3a))
     (pin "2" (uuid ce677143-6632-4f18-9b17-69a00246c857))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C14") (unit 1)
         )
@@ -5232,7 +5232,7 @@
     )
     (pin "1" (uuid e4562806-1d38-4381-af01-676d3fdfce29))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0106") (unit 1)
         )
@@ -5258,7 +5258,7 @@
     (pin "1" (uuid 3766e5c0-b11a-44f4-a7d4-28d1cd1fea1d))
     (pin "2" (uuid 4a2c79f3-7278-49a2-9330-36f4e8274114))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J8") (unit 1)
         )
@@ -5284,7 +5284,7 @@
     (pin "1" (uuid e4599fe3-115e-4eb6-b9af-52c5fa66c1c8))
     (pin "2" (uuid 9270dc36-249b-4991-ac7d-832cbad32acd))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C11") (unit 1)
         )
@@ -5310,7 +5310,7 @@
     (pin "1" (uuid 57c49f89-5071-4be7-99e0-bd1593969360))
     (pin "2" (uuid 2cb734c1-9cbe-435d-bc30-5bf1f6714209))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R5") (unit 1)
         )
@@ -5342,7 +5342,7 @@
     (pin "7" (uuid 3dacd5f3-ad92-4f20-9462-b99d7d7f8bcf))
     (pin "8" (uuid 5d122dec-7f47-494f-a902-2e00830e491e))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U3") (unit 1)
         )
@@ -5368,7 +5368,7 @@
     (pin "1" (uuid 2a50a86b-9360-4814-880f-0fb6308e87bc))
     (pin "2" (uuid 53bf345c-a53a-42b3-ae24-c102aca2e75c))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "L1") (unit 1)
         )
@@ -5393,7 +5393,7 @@
     )
     (pin "1" (uuid a9c455b0-0422-477b-842c-15aa49d29e63))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0103") (unit 1)
         )
@@ -5418,7 +5418,7 @@
     )
     (pin "1" (uuid 15521d08-ba8f-45c9-9e6e-3fd1262fdc5f))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR014") (unit 1)
         )
@@ -5444,7 +5444,7 @@
     (pin "1" (uuid 7c5993e4-66de-4071-9d5e-2bcecf8b7cbe))
     (pin "2" (uuid 77e80fad-831d-4c90-aeb8-501caffdf57e))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C10") (unit 1)
         )
@@ -5469,7 +5469,7 @@
     )
     (pin "1" (uuid ca89736c-bd62-42d9-bb35-acbfeac43182))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR08") (unit 1)
         )
@@ -5495,7 +5495,7 @@
     (pin "1" (uuid c2b11ef9-bef8-45c0-9bd4-78d725b4c948))
     (pin "2" (uuid 70ef3862-81c7-41fe-9782-5d46d5fe3493))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C13") (unit 1)
         )
@@ -5523,7 +5523,7 @@
     (pin "3" (uuid 5718a9db-bd02-43d7-b363-6216aafdb197))
     (pin "4" (uuid 76cfda9f-eff4-4025-b8eb-65eb77917f45))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U6") (unit 1)
         )
@@ -5549,7 +5549,7 @@
     (pin "1" (uuid 6383829c-acd4-46e8-aa3c-1cec1a89b3bc))
     (pin "2" (uuid a5d73a95-2291-463b-bc78-a8ad6ad7451e))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C3") (unit 1)
         )
@@ -5574,7 +5574,7 @@
     )
     (pin "1" (uuid c9c03c31-49a8-41ca-b31c-843ba1296701))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0109") (unit 1)
         )
@@ -5600,7 +5600,7 @@
     (pin "1" (uuid 49f743e2-861b-4710-9f7c-dfb9bb88d15f))
     (pin "2" (uuid fd61ee94-c82b-4bdf-a5e8-c94bdb246727))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J7") (unit 1)
         )
@@ -5625,7 +5625,7 @@
     )
     (pin "1" (uuid 1e9090fa-f2c4-46d2-a67b-0620abda5832))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR022") (unit 1)
         )
@@ -5650,7 +5650,7 @@
     )
     (pin "1" (uuid 812cd8f5-548e-4a67-8b6a-7bb16e014723))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0101") (unit 1)
         )
@@ -5716,7 +5716,7 @@
     (pin "8" (uuid 27ccf324-ec2e-46a6-acd6-03205bd6d54e))
     (pin "9" (uuid 9823caea-37a3-4846-8f67-0ef0b019ddd1))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U2") (unit 1)
         )
@@ -5742,7 +5742,7 @@
     (pin "1" (uuid 57babb5f-6026-47e4-a4ed-74917993a40a))
     (pin "2" (uuid 73142f93-648a-4f61-8d94-aa27f8fb5964))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C5") (unit 1)
         )
@@ -5783,7 +5783,7 @@
     (pin "B9" (uuid c31c3b67-b448-433e-a7be-2b0641cd4afb))
     (pin "S1" (uuid 1b1f9716-0253-4576-8592-7cde47254c3a))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J3") (unit 1)
         )
@@ -5809,7 +5809,7 @@
     (pin "1" (uuid d9da0d32-04e4-4656-8eea-4da42d864379))
     (pin "2" (uuid 2c324b7b-2b5b-487d-b058-d49a0331aa89))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R3") (unit 1)
         )
@@ -5834,7 +5834,7 @@
     )
     (pin "1" (uuid 049a6d8a-aaf5-49f7-9f7d-43fffd7db979))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR04") (unit 1)
         )
@@ -5860,7 +5860,7 @@
     (pin "1" (uuid 2583d305-61cc-4742-9ce6-113f9301c6bd))
     (pin "2" (uuid a796dbdb-b16f-4f10-b906-0cfc417bb375))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "D1") (unit 1)
         )
@@ -5909,7 +5909,7 @@
     (pin "8" (uuid 66baf664-eb1c-4d81-8e32-46cd61985d01))
     (pin "9" (uuid 3f9a8af5-3d2e-4702-b427-bd0c92980a95))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U4") (unit 1)
         )
@@ -5937,7 +5937,7 @@
     (pin "3" (uuid 39398023-fa12-4c8d-acec-00664680f450))
     (pin "4" (uuid 406a8ad4-2d24-41ec-a3de-44225f71c72e))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "SW5") (unit 1)
         )
@@ -5962,7 +5962,7 @@
     )
     (pin "1" (uuid bcfae7ba-101a-4b1f-a58a-e0f1e1be93a0))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR07") (unit 1)
         )
@@ -5988,7 +5988,7 @@
     (pin "1" (uuid b49b2bde-9052-494e-b3dc-923f71b1ead7))
     (pin "2" (uuid 865a21f2-86cd-4196-a9c7-8b0d2929fd7d))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R2") (unit 1)
         )
@@ -6014,7 +6014,7 @@
     (pin "1" (uuid 26e52833-f207-4ba5-b7cf-e170307c59f1))
     (pin "2" (uuid 48fd88ef-29e3-457d-bf2f-186d07720018))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R11") (unit 1)
         )
@@ -6040,7 +6040,7 @@
     (pin "1" (uuid 6ab33ca5-e85f-4216-8550-889bc468a8f9))
     (pin "2" (uuid 213105c0-590d-4449-80e9-ec80e121658f))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C12") (unit 1)
         )
@@ -6065,7 +6065,7 @@
     )
     (pin "1" (uuid e7b94cda-770e-4bbc-8129-05afec89e0c6))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR026") (unit 1)
         )
@@ -6096,7 +6096,7 @@
     (pin "6" (uuid 72adad6a-b9c6-4500-807c-288282316cfb))
     (pin "2" (uuid 53733654-5bba-4fca-95ed-034266c47f78))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J6") (unit 1)
         )
@@ -6122,7 +6122,7 @@
     (pin "1" (uuid 49492245-9273-49f3-bbbf-c9f80a61c99d))
     (pin "2" (uuid 0190cf4e-ca8f-4fb6-aa27-b51c00ad168c))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J5") (unit 1)
         )
@@ -6149,7 +6149,7 @@
     (pin "2" (uuid 7e0e1514-63fe-4561-9ec5-c328b911f308))
     (pin "3" (uuid 7fb839f8-0e47-4081-b9df-756f7ef62002))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "Q1") (unit 1)
         )
@@ -6174,7 +6174,7 @@
     )
     (pin "1" (uuid 9a114e99-8faa-4d81-bc5f-b5954501f460))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR016") (unit 1)
         )
@@ -6199,7 +6199,7 @@
     )
     (pin "1" (uuid 4cf509dd-d477-402e-8969-e6269b8c78a9))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0105") (unit 1)
         )
@@ -6225,7 +6225,7 @@
     (pin "1" (uuid 1961b253-1cb2-46c0-aed7-13ecb67e1aa4))
     (pin "2" (uuid 2b5a3eb3-7502-44cd-a0ba-68b544fed293))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C9") (unit 1)
         )
@@ -6251,7 +6251,7 @@
     (pin "1" (uuid 31ff8b85-f435-4f4a-b54d-9cb807708ef4))
     (pin "2" (uuid 9622345d-0bdb-49f1-bc60-d01a9b115821))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R12") (unit 1)
         )
@@ -6276,7 +6276,7 @@
     )
     (pin "1" (uuid 668b8245-834e-4a9f-ba57-d17eacef48dd))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0113") (unit 1)
         )
@@ -6306,7 +6306,7 @@
     (pin "5" (uuid ada73a69-631f-4466-a2de-88aace57d6e9))
     (pin "6" (uuid 1e5b368b-4e66-498f-ba93-da9406855fcb))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U7") (unit 1)
         )
@@ -6334,7 +6334,7 @@
     (pin "3" (uuid 3991e25b-5760-4587-891b-2d07ffb9f286))
     (pin "4" (uuid e3b0e04a-0769-4811-8c05-d087e22ee48c))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "D2") (unit 1)
         )
@@ -6360,7 +6360,7 @@
     (pin "1" (uuid 12c957be-c423-469a-8918-3c61a6f9f54f))
     (pin "2" (uuid 81b43100-2a1c-405f-b391-1b2c69ca1989))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "SW3") (unit 1)
         )
@@ -6385,7 +6385,7 @@
     )
     (pin "1" (uuid 8371de02-bf1e-4f99-ba29-d21047886f57))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR021") (unit 1)
         )
@@ -6411,7 +6411,7 @@
     (pin "1" (uuid 9dde9365-c551-4dfd-96cb-10548329dd12))
     (pin "2" (uuid 0c3b6f04-8c09-4c5c-8a64-c98f3e76e46a))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R7") (unit 1)
         )
@@ -6443,7 +6443,7 @@
     (pin "7" (uuid a3ae62b7-9910-4c0e-ac24-fbde474a7e70))
     (pin "8" (uuid 6434655f-1c15-4723-bb28-c226b31ae0ca))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "Q4") (unit 1)
         )
@@ -6479,7 +6479,7 @@
     (pin "8" (uuid 2fdf7040-cb08-455c-bb1b-efb0fd3cf782))
     (pin "9" (uuid 8114495b-33ac-4d4b-b29e-20d711cb24b4))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "SW1") (unit 1)
         )
@@ -6504,7 +6504,7 @@
     )
     (pin "1" (uuid c12c8778-6e69-4fff-af92-423812f6ffdc))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR011") (unit 1)
         )
@@ -6530,7 +6530,7 @@
     (pin "1" (uuid fe7f2978-b5d6-4f30-b498-494d31dcb6ad))
     (pin "2" (uuid 20fd01dd-f5b4-402f-8c38-0f622b7aa3bf))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "TH1") (unit 1)
         )
@@ -6555,7 +6555,7 @@
     )
     (pin "1" (uuid 96663ad8-09cb-4815-8cbb-e678879d65db))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0112") (unit 1)
         )
@@ -6581,7 +6581,7 @@
     (pin "1" (uuid fce76fd7-274a-4592-b922-6cd64c6f402d))
     (pin "2" (uuid e9c90f69-0446-4a8c-bae7-1cb6028edafd))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J4") (unit 1)
         )
@@ -6609,7 +6609,7 @@
     (pin "3" (uuid b4a11f28-b080-414e-a7dc-6e72e6129dbb))
     (pin "4" (uuid 1fbf7c70-c0b4-4404-bb53-c0c3ab7eed3a))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "SW2") (unit 1)
         )
@@ -6635,7 +6635,7 @@
     (pin "1" (uuid 2f51f696-98a0-4244-a9f3-c3d28b48e4e5))
     (pin "2" (uuid e3c7eeea-4a03-4d93-953a-abf912d85623))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C15") (unit 1)
         )
@@ -6660,7 +6660,7 @@
     )
     (pin "1" (uuid 9193db2e-4daf-40ec-b4c9-6948f3593f57))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR010") (unit 1)
         )
@@ -6685,7 +6685,7 @@
     )
     (pin "1" (uuid 136afa5e-acdc-46a0-b973-2b37073274f0))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR01") (unit 1)
         )
@@ -6710,7 +6710,7 @@
     )
     (pin "1" (uuid a3ca4c27-cd25-453f-85db-71b5ffd5d696))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0107") (unit 1)
         )
@@ -6736,7 +6736,7 @@
     (pin "1" (uuid 51a5ef42-a34a-468d-b21f-5873487b9a74))
     (pin "2" (uuid aca8963a-6454-4912-9653-e3533d5fd121))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J2") (unit 1)
         )
@@ -6762,7 +6762,7 @@
     (pin "1" (uuid 57a2732f-a3a4-47a3-94d8-2f74235c1e55))
     (pin "2" (uuid 29df4193-4ed6-4fc9-acb7-041ee1d75e99))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "SW4") (unit 1)
         )
@@ -6787,7 +6787,7 @@
     )
     (pin "1" (uuid 202d0dd2-ad81-44ba-8885-cbabae7cd7f5))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR028") (unit 1)
         )
@@ -6812,7 +6812,7 @@
     )
     (pin "1" (uuid 72ae44ef-41ce-4026-9a05-768fa5e7bf99))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0116") (unit 1)
         )
@@ -6838,7 +6838,7 @@
     (pin "1" (uuid 86cb2873-3e44-4632-87ab-5f7ef9727d33))
     (pin "2" (uuid 446d5b97-864a-4705-b0b1-aebbb2b39c2b))
     (instances
-      (project "PD_Micro"
+      (project "PD-LabSupply"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J1") (unit 1)
         )
