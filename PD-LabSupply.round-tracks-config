@@ -1,0 +1,8 @@
+Default	True	2.0	3
+GND	True	2.0	3
+Minimum	True	2.0	3
+Power	True	2.0	3
+cc	True	2.0	3
+usb	True	2.0	3
+vcc	True	2.0	3
+False	True	False

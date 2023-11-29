@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.4,
-          "width": 0.84
+          "drill": 2.5,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PD_Micro.kicad_pro",
+    "filename": "PD-LabSupply.kicad_pro",
     "version": 1
   },
   "net_settings": {
