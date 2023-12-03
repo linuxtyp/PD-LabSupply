@@ -10,4 +10,7 @@
   (lib (name "LMR54410")(type "KiCad")(uri "${KIPRJMOD}/library/LMR54410/LMR54410.kicad_sym")(options "")(descr ""))
   (lib (name "IRF9393")(type "KiCad")(uri "${KIPRJMOD}/library/IRF9393/IRF9393.kicad_sym")(options "")(descr ""))
   (lib (name "TMCS1108")(type "KiCad")(uri "${KIPRJMOD}/library/TMCS1108/TMCS1108.kicad_sym")(options "")(descr ""))
+  (lib (name "W25Q16JVSSIQ")(type "KiCad")(uri "${KIPRJMOD}/library/W25Q16JVSSIQ/W25Q16JVSSIQ.kicad_sym")(options "")(descr ""))
+  (lib (name "AP2112K_3_3TRG1")(type "KiCad")(uri "${KIPRJMOD}/library/AP2112K_3_3TRG1/AP2112K_3_3TRG1.kicad_sym")(options "")(descr ""))
+  (lib (name "ABLS_12_000MHZ_B2_T")(type "KiCad")(uri "${KIPRJMOD}/library/ABLS_12_000MHZ_B2_T/ABLS_12_000MHZ_B2_T.kicad_sym")(options "")(descr ""))
 )

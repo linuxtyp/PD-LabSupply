@@ -7,4 +7,5 @@
   (lib (name "-Hole")(type "KiCad")(uri "${KIPRJMOD}/library/footprint/Hole.pretty")(options "")(descr ""))
   (lib (name "-Switch")(type "KiCad")(uri "${KIPRJMOD}/library/footprint/Switch.pretty")(options "")(descr ""))
   (lib (name "SSD1306")(type "KiCad")(uri "${KIPRJMOD}/library/OLED/SSD1306.pretty")(options "")(descr ""))
+  (lib (name "ABLS_12_000MHZ_B2_T")(type "KiCad")(uri "${KIPRJMOD}/library/ABLS_12_000MHZ_B2_T/ABLS_12_000MHZ_B2_T.pretty")(options "")(descr ""))
 )
