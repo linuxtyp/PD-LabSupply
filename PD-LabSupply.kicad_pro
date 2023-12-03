@@ -606,7 +606,11 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/HALL_IN"
+        "pattern": "HALL_IN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+3V3"
       }
     ]
   },
