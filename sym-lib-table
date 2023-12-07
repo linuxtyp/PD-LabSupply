@@ -13,4 +13,5 @@
   (lib (name "W25Q16JVSSIQ")(type "KiCad")(uri "${KIPRJMOD}/library/W25Q16JVSSIQ/W25Q16JVSSIQ.kicad_sym")(options "")(descr ""))
   (lib (name "AP2112K_3_3TRG1")(type "KiCad")(uri "${KIPRJMOD}/library/AP2112K_3_3TRG1/AP2112K_3_3TRG1.kicad_sym")(options "")(descr ""))
   (lib (name "ABLS_12_000MHZ_B2_T")(type "KiCad")(uri "${KIPRJMOD}/library/ABLS_12_000MHZ_B2_T/ABLS_12_000MHZ_B2_T.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4500_03_0_A")(type "KiCad")(uri "${KIPRJMOD}/library/USB4500_03_0_A/USB4500_03_0_A.kicad_sym")(options "")(descr ""))
 )
