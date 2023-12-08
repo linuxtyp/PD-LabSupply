@@ -9,4 +9,7 @@
   (lib (name "SSD1306")(type "KiCad")(uri "${KIPRJMOD}/library/OLED/SSD1306.pretty")(options "")(descr ""))
   (lib (name "ABLS_12_000MHZ_B2_T")(type "KiCad")(uri "${KIPRJMOD}/library/ABLS_12_000MHZ_B2_T/ABLS_12_000MHZ_B2_T.pretty")(options "")(descr ""))
   (lib (name "USB4500_03_0_A")(type "KiCad")(uri "${KIPRJMOD}/library/USB4500_03_0_A/USB4500_03_0_A.pretty")(options "")(descr ""))
+  (lib (name "USB4520_03_0_A")(type "KiCad")(uri "${KIPRJMOD}/library/USB4520_03_0_A/USB4520_03_0_A.pretty")(options "")(descr ""))
+  (lib (name "ESP32_C3_WROOM_02_N4")(type "KiCad")(uri "${KIPRJMOD}/library/ESP32_C3_WROOM_02_N4.pretty")(options "")(descr ""))
+  (lib (name "DMN3008SFGQ-7")(type "KiCad")(uri "${KIPRJMOD}/library/DMN3008SFGQ-7/DMN3008SFGQ-7.pretty")(options "")(descr ""))
 )

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMN3008SFGQ-7
+D MOSFET MOSFET BVDSS: 25V-30V
+K
+F https://www.diodes.com/assets/Datasheets/DMN3008SFGQ.pdf
+$ENDCMP
+#
+#End Doc Library
