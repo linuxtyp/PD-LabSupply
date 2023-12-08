@@ -6,7 +6,7 @@
     (property "Value" "DMN3008SFGQ-7" (at 16.51 15.24 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "DMG7401SFG13" (at 21.59 -94.92 0)
+    (property "Footprint" "DMN3008SFGQ-7:DMG7401SFG13" (at 21.59 -94.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3008SFGQ.pdf" (at 21.59 -194.92 0)
