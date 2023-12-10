@@ -15,4 +15,6 @@
   (lib (name "ABLS_12_000MHZ_B2_T")(type "KiCad")(uri "${KIPRJMOD}/library/ABLS_12_000MHZ_B2_T/ABLS_12_000MHZ_B2_T.kicad_sym")(options "")(descr ""))
   (lib (name "USB4500_03_0_A")(type "KiCad")(uri "${KIPRJMOD}/library/USB4500_03_0_A/USB4500_03_0_A.kicad_sym")(options "")(descr ""))
   (lib (name "DMN3008SFGQ-7")(type "KiCad")(uri "${KIPRJMOD}/library/DMN3008SFGQ-7/DMN3008SFGQ-7.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4520_03_0_A")(type "KiCad")(uri "${KIPRJMOD}/library/USB4520_03_0_A/USB4520_03_0_A.kicad_sym")(options "")(descr ""))
+  (lib (name "JS202011JAQN")(type "KiCad")(uri "${KIPRJMOD}/library/JS202011JAQN/JS202011JAQN.kicad_sym")(options "")(descr ""))
 )

@@ -12,4 +12,8 @@
   (lib (name "USB4520_03_0_A")(type "KiCad")(uri "${KIPRJMOD}/library/USB4520_03_0_A/USB4520_03_0_A.pretty")(options "")(descr ""))
   (lib (name "ESP32_C3_WROOM_02_N4")(type "KiCad")(uri "${KIPRJMOD}/library/ESP32_C3_WROOM_02_N4.pretty")(options "")(descr ""))
   (lib (name "DMN3008SFGQ-7")(type "KiCad")(uri "${KIPRJMOD}/library/DMN3008SFGQ-7/DMN3008SFGQ-7.pretty")(options "")(descr ""))
+  (lib (name "AP2112K_3")(type "KiCad")(uri "${KIPRJMOD}/library/AP2112K_3_3TRG1/AP2112K_3.pretty")(options "")(descr ""))
+  (lib (name "AP2112K_3_3TRG1")(type "KiCad")(uri "${KIPRJMOD}/library/AP2112K_3_3TRG1/AP2112K_3_3TRG1.pretty")(options "")(descr ""))
+  (lib (name "AP33772")(type "KiCad")(uri "${KIPRJMOD}/library/AP33772/AP33772.pretty")(options "")(descr ""))
+  (lib (name "JS202011JAQN")(type "KiCad")(uri "${KIPRJMOD}/library/JS202011JAQN/JS202011JAQN.pretty")(options "")(descr ""))
 )

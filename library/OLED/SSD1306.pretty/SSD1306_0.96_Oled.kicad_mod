@@ -69,4 +69,9 @@
   (pad "2" thru_hole circle (at 12.48 -26.3) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 31a25eed-d611-4655-b157-d23dd905d902))
   (pad "3" thru_hole circle (at 15.02 -26.3) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 3a0c1bc5-3cd8-4b31-b4bd-777c946cbea0))
   (pad "4" thru_hole circle (at 17.56 -26.3) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 2d9750f5-4713-4738-bc82-7eb7891ad415))
+  (model "${KIPRJMOD}/library/OLED/SSD1306_OLED_Display(128x64).step"
+    (offset (xyz 13.7 14.5 2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
