@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "PD-LabSupply")
-    (date "2023-11-26")
-    (rev "3.1")
+    (title "PD-LabSupply_Core-Module")
+    (date "2023-12-11")
+    (rev "4.2")
     (company "HTL Rankweil")
     (comment 1 "Johannes Melcher-Millner")
     (comment 2 "Manuel Mayrhofer")
