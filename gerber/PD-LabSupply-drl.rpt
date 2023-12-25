@@ -1,5 +1,5 @@
 Drill report for PD-LabSupply.kicad_pcb
-Created on Sun 10 Dec 2023 07:38:50 PM CET
+Created on Mon 25 Dec 2023 04:12:50 PM CET
 
 Copper Layer Stackup:
     =============================================================
@@ -12,15 +12,16 @@ Drill file 'PD-LabSupply-PTH.drl' contains
     =============================================================
     T1  0,200mm  0,0079"  (4 holes)
     T2  0,200mm  0,0079"  (9 holes)
-    T3  0,250mm  0,0098"  (143 holes)
-    T4  0,400mm  0,0157"  (7 holes)
-    T5  0,600mm  0,0236"  (4 holes)  (with 4 slots)
-    T6  0,800mm  0,0315"  (4 holes)
-    T7  0,889mm  0,0350"  (4 holes)
-    T8  1,000mm  0,0394"  (4 holes)
-    T9  1,520mm  0,0598"  (2 holes)
+    T3  0,250mm  0,0098"  (141 holes)
+    T4  0,300mm  0,0118"  (6 holes)
+    T5  0,400mm  0,0157"  (7 holes)
+    T6  0,600mm  0,0236"  (4 holes)  (with 4 slots)
+    T7  0,800mm  0,0315"  (4 holes)
+    T8  0,889mm  0,0350"  (4 holes)
+    T9  1,000mm  0,0394"  (4 holes)
+    T10  1,520mm  0,0598"  (2 holes)
 
-    Total plated holes count 181
+    Total plated holes count 185
 
 
 Drill file 'PD-LabSupply-NPTH.drl' contains
